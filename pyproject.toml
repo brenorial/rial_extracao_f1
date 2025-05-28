@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rial-extracao-f1"
+version = "0.1.0"
+description = "Projeto de extração de dados da F1"
+authors = ["Your Name <your.email@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.3"
+sqlalchemy = "^2.0.41"
+psycopg2 = "^2.9.10"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
