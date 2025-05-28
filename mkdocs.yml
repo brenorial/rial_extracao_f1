@@ -1,0 +1,30 @@
+site_name: Projeto F1 - Dados da Fórmula 1 no PostgreSQL
+site_description: Transformação de arquivos CSV da Fórmula 1 em banco PostgreSQL para análise no Power BI.
+site_author: Breno
+
+nav:
+  - Início: index.md
+  - Criando o Banco de Dados: criando_o_banco.md
+  - Usando Docker: docker.md
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Alternar para tema escuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Alternar para tema claro
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
